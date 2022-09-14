@@ -1,0 +1,39 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center89;
+    /* border: solid 1px red; */
+}
+
+.nav-links {
+    display: flex;
+    /* border: solid 1px red; */
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 0 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
